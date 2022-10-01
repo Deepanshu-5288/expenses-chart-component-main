@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: hsl(27, 66%, 92%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    font-family: 'DM Sans', sans-serif;
+}
+main{
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+}
+h1,h2,h3, p{
+    margin: 0;
+}
+p{
+    color: hsl(28, 10%, 53%);
+}
+hr{
+    border: 0.04rem solid hsl(28, 10%, 53%);
+    width: 100%;
+ margin: 1rem 0;
+}
+.top-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: .625rem;
+    padding: 1.5rem;
+    color: white;
+}
+.logo{
+    width: 4rem;
+}
+.balance-test{
+    margin-bottom: .5rem;
+    color: hsl(33, 100%, 98%);
+}
+
+.bottom-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: .625rem;
+}
+.bottom-div-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.week{
+    height: 14rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+.bar{
+    height: .1rem;
+
+    background-color: hsl(10, 79%, 65%);
+    border-radius: .3125rem;
+    width: 2.5rem;
+}
+.bar-max{
+    background-color: hsl(186, 34%, 60%);
+}
+.bar-max:hover{
+    background-color: hsl(186, 35%, 72%);
+}
+.bar:hover{
+    cursor: pointer;
+    background-color: hsl(10, 53%, 68%);
+}
+
+.day-amount{
+    padding: .5rem;
+    border-radius: .3125rem;
+    background-color: black;
+    color: white;
+    display: block;
+}
+.day-amount-hide{
+display: none;
+}
