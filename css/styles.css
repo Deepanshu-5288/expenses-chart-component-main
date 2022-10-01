@@ -80,15 +80,18 @@ hr{
     border-radius: .3125rem;
     width: 2.5rem;
 }
+.bar:hover{
+    cursor: pointer;
+    background-color: hsl(10, 53%, 68%);
+}
 .bar-max{
     background-color: hsl(186, 34%, 60%);
 }
 .bar-max:hover{
     background-color: hsl(186, 35%, 72%);
 }
-.bar:hover{
-    cursor: pointer;
-    background-color: hsl(10, 53%, 68%);
+.day-amount-hide{
+    display: none;
 }
 
 .day-amount{
@@ -97,7 +100,4 @@ hr{
     background-color: black;
     color: white;
     display: block;
-}
-.day-amount-hide{
-display: none;
 }
